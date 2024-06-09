@@ -6,7 +6,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import toast from 'react-hot-toast';
 
-import { ConfirmModal } from '@/components/modals copy/confirm-modal';
+import { ConfirmModal } from '@/components/modals/confirm-modal';
 import { Button } from '@/components/ui/button';
 import { useConfettiStore } from '@/hooks/use-confetti-store';
 
